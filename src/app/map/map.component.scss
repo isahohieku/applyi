@@ -1,0 +1,39 @@
+.wrapper {
+    border-radius: 6px;
+    background-color: #ffffff;
+    font-size: 1.7rem;
+    max-width: 83rem;
+    padding: 2.4rem 4rem;
+
+
+    h4 {
+        margin-left: 8px;
+        font-size: 2rem;
+        color: #1f2430;
+    }
+
+    .map {
+        margin-top: 2.5rem;
+        height: 35rem;
+        background-image: url(../../assets/img/map.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media(max-width: 576px) {
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    .wrapper {
+        max-width: 100%;
+        padding: 2.3rem 2rem;
+        border: 1px solid #FFE367;
+    }
+
+    .map {
+        margin-top: 1.5rem !important;
+    }
+}

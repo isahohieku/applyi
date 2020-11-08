@@ -1,0 +1,120 @@
+.wrapper {
+    border-radius: 6px;
+    background-color: #ffffff;
+    font-size: 1.7rem;
+    max-width: 116rem;
+    padding-top: 2.4rem;
+
+    h4 {
+        margin-left: 8px;
+        font-size: 2rem;
+        color: #1f2430;
+    }
+}
+
+.padded-h {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 4.2rem;
+    margin-bottom: 2.6rem;
+}
+
+p {
+    margin-bottom: 0;
+    line-height: 3rem;
+    color: #51596c;
+}
+
+.input-wrapper {
+    background: #ffffff;
+    border: 1px solid #c4ccd6;
+    box-shadow: 0px 14px 59px rgba(38, 38, 40, 0.0392157);
+    border-radius: 6px;
+    margin-bottom: 6px;
+    height: 6rem;
+    padding-left: 2rem;
+    margin-right: 2rem;
+
+    input {
+        height: 6rem;
+        line-height: 6rem;
+        font-size: 1.4rem;
+    }
+}
+
+.search-btn {
+    background: #5592bc;
+    border-radius: 6px;
+    height: 6rem;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 15rem;
+}
+
+select {
+    border: 0;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 6px 0;
+    text-transform: capitalize;
+}
+
+label {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+h5 {
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+    font-size: 1.4rem;
+}
+
+h6 {
+    margin-top: 3.5rem;
+    margin-bottom: 3.8rem;
+    color: #1F2430;
+    font-weight: 500;
+    font-size: 1.6rem;
+    max-width: 116rem;
+}
+
+@media (max-width: 576px) {
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    .wrapper {
+        max-width: 100%;
+        padding-top: 2.3rem;
+        font-size: 1.4rem;
+    }
+
+    .padded-h {
+        padding-left: 2rem; 
+        padding-right: 2rem; 
+    }
+
+    .search-btn {
+        background: #5592bc;
+        border-radius: 6px;
+        height: 6rem;
+        color: white;
+        font-size: 1.6rem;
+        font-weight: 600;
+        width: 100%;
+    }
+
+    .input-wrapper {
+        padding: 2rem;
+        margin-right: 0;
+    }
+}

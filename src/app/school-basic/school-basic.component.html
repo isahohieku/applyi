@@ -1,0 +1,92 @@
+<!-- Desktop View -->
+<div class="wrapper w-100 d-none d-md-block">
+    <!-- School brief -->
+    <div class="d-flex justify-content-between padded-h">
+        <div class="about">
+            <div class="meta">
+                <p>
+                    Nigeria Ghana International School, Abuja, is a private co-educational secondary school established
+                    in
+                    2006,
+                    located in the serenity of Kuje Area Council in the Federal Capital Territory.
+                </p>
+
+                <div class="d-flex address">
+                    <p class="mt-2"><i class="fas fa-map-marker-alt"></i></p>
+                    <div class="ml-3">
+                        <p>Plot 700, Gitto Road</p>
+                        <p>Mabuchi, Abuja</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- School Avi -->
+        <div>
+            <img src="assets/img/school-logo.jpg" alt="Nordic School Logo" width="132">
+        </div>
+    </div>
+
+    <!-- School classes -->
+    <div class="class-tags padded-h">
+        <app-class-tags [studentClass]="'pre'"></app-class-tags>
+        <app-class-tags [studentClass]="'nursery'"></app-class-tags>
+        <app-class-tags [studentClass]="'primary'"></app-class-tags>
+        <app-class-tags [studentClass]="'junior'"></app-class-tags>
+        <app-class-tags [studentClass]="'senior'"></app-class-tags>
+    </div>
+
+    <!-- School motto -->
+    <div class="d-flex align-items-center motto-flag padded-h">
+        <div>
+            <img src="assets/img/icons/flag-star.jpg" alt="Flag with a star">
+        </div>
+
+        <p class="mb-0 motto">School Motto: <b>Excellence and Integrity</b></p>
+    </div>
+
+    <!-- School images -->
+    <div class="images-wrapper position-relative padded-h overflow-hidden">
+        <div class="images">
+            <div class="img"></div>
+            <div class="img2"></div>
+            <div class="img"></div>
+        </div>
+
+        <div class="position-absolute pic-icon d-flex align-items-center justify-content-center">
+            <div><img src="assets/img/icons/picture.svg" alt="Gallery Icon" width="18"></div>
+            <p class="ml-2 mb-0">+16</p>
+        </div>
+    </div>
+</div>
+
+<!-- Mobile View -->
+<div class="wrapper w-100 d-md-none">
+    <div class="img2"></div>
+
+    <div class="padded-h">
+        <h4>Claret International School</h4>
+
+        <div class="d-flex address">
+            <p class="mt-2"><i class="fas fa-map-marker-alt"></i></p>
+            <div class="ml-3">
+                <p>Plot 700, Gitto Road</p>
+                <p>Mabuchi, Abuja</p>
+            </div>
+        </div>
+
+        <!-- School classes -->
+        <div class="class-tags">
+            <app-class-tags [studentClass]="'pre'"></app-class-tags>
+            <app-class-tags [studentClass]="'nursery'"></app-class-tags>
+            <app-class-tags [studentClass]="'primary'"></app-class-tags>
+        </div>
+
+        <p class="school-facility mb-0">Boys & Girls • Day Only • Secular</p>
+
+        <div class="d-flex justify-content-center btns">
+            <a href="#" class="btn"><div><img src="assets/img/icons/ribbon.svg" alt="Ribbon" height="20" /></div></a>
+            <a href="mailto:info@happydayspreschoolng.com" class="btn ml-3"><img src="assets/img/icons/envelope.svg" alt="Envelope" height="13" /></a>
+        </div>
+    </div>
+</div>
